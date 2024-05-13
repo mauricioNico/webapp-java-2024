@@ -18,4 +18,8 @@ public class DuenioService {
     public Duenio guardarDuenio(Duenio duenio){
         return duenioRepository.save(duenio);
     }
+
+  public Duenio obtenerDuenioPorId(long id){
+        return duenioRepository.findById(id).orElseThrow(() -> new RuntimeException("No se encontró el dueño"));
+  }
 }

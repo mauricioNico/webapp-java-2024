@@ -1,0 +1,10 @@
+com\javaWeb\webappjava2024\model\Duenio.class
+com\javaWeb\webappjava2024\WebappJava2024Application.class
+com\javaWeb\webappjava2024\repository\MascotaRepository.class
+com\javaWeb\webappjava2024\ServletInitializer.class
+com\javaWeb\webappjava2024\controller\MascotaViewController.class
+com\javaWeb\webappjava2024\repository\DuenioRepository.class
+com\javaWeb\webappjava2024\controller\DuenioViewController.class
+com\javaWeb\webappjava2024\service\DuenioService.class
+com\javaWeb\webappjava2024\service\MascotaService.class
+com\javaWeb\webappjava2024\model\Mascota.class
