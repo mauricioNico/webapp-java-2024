@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dueños</title>
+</head>
+<body>
+<h1>Listado de Dueños</h1>
+<table style="border:solid;">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Dirección</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="duenio : ${duenios}">
+        <td th:text="{duenio.id"}></td>
+        <td th:text="{duenio.nombre"}></td>
+        <td th:text="{duenio.direccion"}></td>
+         </tr>
+    </tbody>
+</table>
+<a th:href="@{mascotas}">Ver lista de mascotas</a>
+</body>
+</html>
